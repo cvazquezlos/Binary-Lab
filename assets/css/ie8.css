@@ -1,0 +1,42 @@
+/*
+	Wide Angle by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Wrappers */
+
+	#header-wrapper {
+		padding-bottom: 2em;
+	}
+
+	#banner-wrapper {
+		background: none;
+	}
+
+/* Logo */
+
+	#logo {
+		height: 12em;
+	}
+
+		#logo a > span {
+			border: 0;
+		}
+
+/* Slider */
+
+	#slider {
+		width: 1200px;
+		height: 550px;
+	}
+
+		#slider .caption {
+			background-color: #333;
+		}
+
+/* Nav */
+
+	.dropotron.level-0:before {
+		display: none;
+	}
