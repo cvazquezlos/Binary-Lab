@@ -341,3 +341,13 @@ you can use the generic selector below, but it's slower:
 .icon-dribbble:before {
 	content: "\e063";
 }
+
+.about_us_photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+}

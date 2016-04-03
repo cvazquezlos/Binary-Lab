@@ -102,6 +102,7 @@ background-color: #2d3334;
 	margin-top: 20px;
 	margin-bottom: 10px;
 	line-height: 21px;
+    text-align: center;
 }
 .about_title h2{
 	font-size: 25px;
@@ -382,6 +383,7 @@ transition: all 1s;
 .work-with {
 padding-bottom: 60px;
 padding-top: 10px;
+    text-align: center;
 }
 .work-with h3{
 	font-size: 14px;
