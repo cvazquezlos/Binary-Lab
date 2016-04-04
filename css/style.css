@@ -18,7 +18,7 @@ color: #777;
 text-transform: uppercase;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	color: #f74d65;
+	color: #0188CF;
 }
 header{
 	background: url(../images/header_bg.jpg);

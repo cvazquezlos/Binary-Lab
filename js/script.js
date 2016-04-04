@@ -41,9 +41,9 @@ $(document).ready(
   function() {
 
     $("html").niceScroll({
-    	cursorcolor:"#f74d65",
+    	cursorcolor:"#0188CF",
     	scrollspeed :"100",
-    	cursorborder:"1px solid #f74d65",
+    	cursorborder:"1px solid #0188CF",
     	horizrailenabled: "false",
     	cursorborderradius: "0px"
     });
