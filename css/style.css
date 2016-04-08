@@ -621,7 +621,10 @@ border-width: 0 335px 455px 0;
 border-color: transparent #2b7fc3 transparent transparent;
 }
 
-.work-cell-content-2-sm {
+
+
+
+.work-cell-content-sm {
 
     margin-top: 100px;
     height: 385px;
@@ -630,4 +633,3 @@ border-color: transparent #2b7fc3 transparent transparent;
     min-height: 90%;
     border: 1px solid #f1f1f2;
 }
-
