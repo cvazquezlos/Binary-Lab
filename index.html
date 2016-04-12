@@ -263,13 +263,13 @@
                         <form class="contact-form" action="">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" id="name" placeholder="Nombre">
-                                    <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
-                                    <input type="text" class="form-control" id="subject" placeholder="Asunto del mensaje">
+                                    <input type="text" name="name" class="form-control" id="name" required="required" placeholder="Nombre">
+                                    <input type="email" name="email" class="form-control" id="email" required="required" placeholder="Correo electrónico">
+                                    <input type="text" name="subject" class="form-control" id="subject" required="required" placeholder="Asunto del mensaje">
                                 </div>
                                 <div class="col-md-6">
-                                    <textarea class="form-control" id="message" rows="25" cols="10" placeholder="Contenido del mensaje"></textarea>
-                                    <button type="button" class="btn btn-default submit-btn form_submit">ENVIAR MENSAJE</button>
+                                    <textarea class="form-control" name="message" id="message" rows="25" cols="10" placeholder="Contenido del mensaje"></textarea>
+                                    <input type="submit" name="submit" class="btn btn-default submit-btn form_submit" value="Submit">
                                 </div>
                             </div>
                         </form>
@@ -331,5 +331,6 @@
         <script src="js/owl.carousel.js"></script>
         <script src="js/wow.js"></script>
         <script src="js/script.js"></script>
+        <script src="js/contact.js"></script>
     </body>
 </html>
