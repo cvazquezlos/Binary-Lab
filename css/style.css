@@ -20,7 +20,7 @@ text-transform: uppercase;
 .navbar-default .navbar-nav>li>a:hover{
 	color: #0188CF;
 }
-header{
+#HOME{
 	background: url(../images/O4UTRE0.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -451,104 +451,28 @@ letter-spacing: 0px;
 	text-decoration:none;
 	}
 
-
-.work-cell-header {
-
-    position:absolute;
-    margin-top: 65px;
-    z-index: 1;
-    height: 455px;
-    width: 335px;
-    background-color: #074D87;
-
+main{
+	padding: 1em 0;
+	position: relative;
+	background: #fff;
 }
 
-
-
-.work-cell-content p{
-    padding: 10px;
+#HOME2{
+	overflow: hidden;
+	padding-bottom: 35%;
+	@media (min-width: 600px){
+		padding-bottom: 50%;
+	}
+	@media (min-width: 700px){
+		padding-bottom: 45%;
+	}
 }
-
-
-
-
-
-.work-cell-second {
-    position:absolute;
-    z-index: 2;
-
-    margin-top: 65px;
-    width: 0;
-height: 0;
-border-style: solid;
-border-width: 455px 335px 0 0px;
-border-color: #0B6BBA transparent transparent transparent;
-}
-
-.work-cell-third {
-    position:absolute;
-    z-index: 3;
-
-    margin-top: 65px;
-    width: 0;
-height: 0;
-border-style: solid;
-border-width: 0 335px 455px 0px;
-border-color: transparent transparent #2B7EC3; transparent;
-}
-
-
-.work-cell-zero-md {
-        position:absolute;
-        z-index: 1;
-        height: 385px;
-        width: 335px;
-        margin-top: 100px;
-        background-color: #fff;
-        border-bottom: 1px solid #f1f1f2;
-        border-top: 1px solid #f1f1f2;
-}
-
-.work-cell-zero-lg {
-        position:absolute;
-        z-index: 1;
-        height: 385px;
-        width: 385px;
-        margin-top: 100px;
-        background-color: #fff;
-        border-bottom: 1px solid #f1f1f2;
-        border-top: 1px solid #f1f1f2;
-}
-
-.work-cell-content-1 {
-
-    height: 385px;
-    margin-top: 100px;
-    background-color: #fff;
-    padding: 25px;
-    min-height: 90%;
-    border-bottom:1px solid #f1f1f2;
-    border-right: 1px solid #f1f1f2;
-    border-top: 1px solid #f1f1f2;
-}
-
-
-
-.work-cell-content-1-xs {
-    margin-top: 100px;
-    height: 465px;
-    background-color: #fff;
-    padding: 25px;
-    min-height: 90%;
-    border: 1px solid #f1f1f2;
-}
-
-.work-cell-content-sm {
-
-    margin-top: 100px;
-    height: 295px;
-    background-color: #fff;
-    padding: 25px;
-    min-height: 90%;
-    border: 1px solid #f1f1f2;
+.work-image{
+	width: 100%;
+	max-width: none;
+    max-height: 100%;
+	position: fixed;
+	top: 0%;
+	left: 50%;
+	transform: translateX(-50%);
 }
