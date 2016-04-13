@@ -54,15 +54,6 @@ $(document).ready(
 
 new WOW().init();
 
-// Hero Zoom on Scroll A PEN BY Derek Palladino
-$(window).scroll(function() {
-  var scroll = $(window).scrollTop();
-	$(".work-image").css({
-		width: (100 + scroll/5)  + "%",
-		top: -(scroll/10)  + "%"
-	});
-});
-
 /*Preloader*/
 //<![CDATA[
 $(window).load(function() { // makes sure the whole site is loaded
