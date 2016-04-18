@@ -527,3 +527,14 @@ main{
       font-size: 3em;
    }
 }
+
+@media only screen and (max-width: 500px) {
+
+    .fun_facts {
+        background-attachment: fixed !important;
+        background-repeat: repeat;
+        background-size: cover;
+        /*  o modificarlo directamente con display:none;  */
+    }
+
+}
