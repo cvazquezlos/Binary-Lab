@@ -96,3 +96,14 @@ main{padding:1em 0;position:relative;background:#fff;}
 .main-title .thin{font-weight:200;}
 @media only screen and (max-width:768px){.demo .main-title{font-size:3em;}
 }
+
+@media only screen and (max-width: 500px) {
+
+    .fun_facts {
+        background-attachment: fixed !important;
+        background-repeat: repeat;
+        background-size: cover;
+        /*  o modificarlo directamente con display:none;  */
+    }
+
+}
