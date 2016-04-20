@@ -2,7 +2,7 @@
 	header('Content-type: application/json');
 	$status = array(
 		'type'=>'success',
-		'message'=>'Su mensaje ha sido enviado correctamente al equipo de Binary Lab Group.'
+		'message'=>'Thank you for contact us. As early as possible  we will contact you '
 	);
 
     $name       = @trim(stripslashes($_POST['name']));
@@ -11,11 +11,17 @@
     $message    = @trim(stripslashes($_POST['message']));
 
     $email_from = $email;
-    $email_to = 'info@binarylabgroup.com';//replace with your email
+    $email_to = 'info@binarylab.es';//replace with your email
 
     $body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message;
 
     $success = @mail($email_to, $subject, $body, 'From: <'.$email_from.'>');
 
-    echo json_encode($status);
+    if ($success){
+       header("Location: http://binarylab.es/index.html#CONTACT");
+       exit();
+    } else {
+      print "np";
+    }
+
     die;
